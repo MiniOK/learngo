@@ -1,0 +1,70 @@
+GET http://localhost:9200/index/type/1?pretty=
+Content-Type: application/json
+
+{   "name": "golang",   "instructor": "cc" }
+
+<> 2020-05-04T102740.200.json
+
+###
+
+PUT http://localhost:9200/index/type/1?pretty=
+Content-Type: application/json
+
+{   "name": "golang",   "instructor": "cc" }
+
+<> 2020-05-04T102733.200.json
+
+###
+
+GET http://localhost:9200/index/type/1
+Content-Type: application/json
+
+{   "name": "golang",   "instructor": "cc" }
+
+<> 2020-05-04T102705.200.json
+
+###
+
+GET http://localhost:9200/index/type/1
+Content-Type: application/json
+
+{   "name": "golang",   "instructor": "cc" }
+
+<> 2020-05-04T102633.200.json
+
+###
+
+PUT http://localhost:9200/index/type/1
+Content-Type: application/json
+
+{   "name": "golang",   "instructor": "cc" }
+
+<> 2020-05-04T102625.201.json
+
+###
+
+GET http://localhost:9200/index/type/1
+Content-Type: application/json
+
+index=golang,type=cc
+
+<> 2020-05-04T102425.404.json
+
+###
+
+PUT http://localhost:9200/index/type/1
+Content-Type: application/json
+
+index=golang,type=cc
+
+<> 2020-05-04T102416.400.json
+
+###
+
+GET http://localhost:9200
+Content-Type: application/json
+
+<> 2020-05-04T101659.200.json
+
+###
+
